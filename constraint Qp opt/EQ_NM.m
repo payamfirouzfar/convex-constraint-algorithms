@@ -4,9 +4,9 @@
 %       
 %           s.t. A * x = b
 %
-%           drev{f(x)} = [-1/x_1 ,...., -1/x_n]'
+%           drev{f(x)} = [-1 / x_1 ,...., -1 / x_n]'
 %
-%           Hessian = diag(1/(x_1^2),...,1/(x_n^2))
+%           Hessian = diag(1 / (x_1^2),... ,1/ (x_n^2))
 
 function [xopt, fval, Iter, X ] = EQ_NM(A, b, options )
 
